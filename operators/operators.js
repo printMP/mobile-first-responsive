@@ -23,6 +23,8 @@ console.log("Y % 3 = ", y % 3);
 
 //The comparison operator compares 2 values
 //The comparison operator can be a double or triple equal sign
+//Double equal signs tests for equal values
+//Triple equal signs tests for equal values and equal data type
 if (b == y){
     console.log("If B = Y", b == y);
 }
