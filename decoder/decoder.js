@@ -8,7 +8,8 @@ console.log("The button is ", button);
 console.log("Input is ", value);
 
 function encoder1(){
-    let value = input1.value;
+    let value_ = input1.value;
+    let value = value_.toUpperCase();
     console.log("Input is: ", value);
 
     let len = value.length;
@@ -23,7 +24,7 @@ function encoder1(){
         //encryption algorithm
         //convert letters to numbers
         let result = alphabet.indexOf(value[i]);
-        encodedValue += i;
+        encodedValue += result +",";
 
 
     }
