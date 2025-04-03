@@ -14,12 +14,26 @@
         <div id="container">
             <div id = "sidebar">sidebar</div>
             <div id="inner-container">
-                <div>Enter the word to encode/decode: </div>
+
+            <div id = "encoder">
+                <h1>Encoder</h1>
+                <div>Enter the word to encode: </div>
                 <input type = "text" id="word">
-                <button id = "button" onclick = "encoder1()">Encode/Decode</button>
+                <button id = "button" onclick = "encoder1()">Encode</button>
                 <div id="output">OUTPUT</div>
                 <div id="code-output"></div>
-            </div>    
+            </div>
+
+            <div id = "decoder">
+                <h1>Decoder</h1>
+                <div>Enter the word to decode: </div>
+                <input type = "text" id="word2">
+                <button id = "button2" onclick = "decoder1()">Decode</button>
+                <div id="output">OUTPUT</div>
+                <div id="code-output2"></div>
+            </div>
+           
+              
         </div>
         
         <footer>
