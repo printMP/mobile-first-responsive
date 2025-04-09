@@ -13,16 +13,33 @@ header{
     height: 100px;
 }
 
+#encoder,#decoder{
+    border: 1px solid black;
+}
+
 nav{
     width: 100%;
-    background-color: purple;
+    /* background-color: purple; */
     height: 50px;
+    position: relative;
 }
 
 #container{
     height: 500px;
     background-color: white;
     width: 100%;
+    display: flex;
+}
+
+#sidebar{
+    background-color: gray;
+    display: none;
+    height: 100%;
+}
+
+#inner-container{
+    background-color: blue;
+    height: 100%;
 }
 
 footer{
@@ -30,6 +47,38 @@ footer{
     background-color: aqua;
     height: 100px;
 }
+
+ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: -38px;
+    flex-direction: column;
+}
+
+ul > li {
+    background-color: gray;
+    width: 100px;
+}
+
+#Hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0 0 5px;
+    box-shadow: 1px 2px antiquewhite;
+}
+
+#Hamburger > div{
+    /width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+}
+
 
 @media only screen and (min-width: 421px){
     body{
