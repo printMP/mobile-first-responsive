@@ -2,7 +2,7 @@
 let output = document.getElementById("code-output");
 
 // Printing the value of the output
-console.log("ouput =", output);
+console.log("output = ", output);
 
 // Declaration and initialization of the variable x with the value Morrison
 let x = "Morrison";
