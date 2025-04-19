@@ -27,17 +27,17 @@ let age;
 // initialization of age
 age = 33;
 
-output.innerHTML = z;
+// output.innerHTML = x;
 
 // Clickable menu that lists items
-const menu_items = document.getElementById("menu_items");
-let menu = (elem) => {
-    console.log("THIS is ", elem.nextElementSibling.style.display);
-    if(elem.nextElementSibling.style.display == " "){
-         menu_items.style.display = "flex";
-    }
-    else{
-        menu_items.style.display = " ";
-    }
-}
+// const menu_items = document.getElementById("menu_items");
+// let menu = (elem) => {
+//     console.log("THIS is ", elem.nextElementSibling.style.display);
+//     if(elem.nextElementSibling.style.display == " "){
+//          menu_items.style.display = "flex";
+//     }
+//     else{
+//         menu_items.style.display = " ";
+//     }
+// }
 

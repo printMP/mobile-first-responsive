@@ -1,11 +1,11 @@
 // On click
-const menuitems = document.getElementById("menuitems");
+const menu_items = document.getElementById("menu_items");
 let menu = (elem)=> { 
     console.log("THIS is", elem.nextElementSibling.style.display);
     if(elem.nextElementSibling.style.display == ""){
-         menuitems.style.display = "flex"  
+         menu_items.style.display = "flex"  
     }
     else{
-        menuitems.style.display = "" 
+        menu_items.style.display = "" 
     }
 }

@@ -1,19 +1,44 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Lessons</title>
-</head>
-<body>
-    <div id="responsive">
-        <nav>
-            <div id = "Hamburger" onclick = "menu(this)">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript</title>
+        <link href="../style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        
+        <div id="responsive">
+            <header>Javascript</header>
+            <nav>
+            <div id="Hamburger" onclick="menu(this)">
                 <div></div>
                 <div></div>
                 <div></div>
-        </nav>
             </div>
-        </nav>
-    </div>
-</body>
+            <ul id="menu_items">
+                <li><a href = "../index.html"><button> Home</button></a></li>
+                <li>Education</li>
+                <li>Mission</li>
+                <li>Experience</li>
+                <li><a href= "javascript/javascript.html"><button>JS LESSONS</button></a></li>
+            </ul>
+            </nav>
+            <div id="container">
+                <div id="sidebar">sidebar
+                  <ul id="sidebaritems">
+                    <li> <a href="datatype/data-type.html"><button class="button">Datatype</button></a></li>
+                    <li> <a href="if-conditions/if-conditions.html"><button class="button">If-Conditions</button></a></li>
+                    <li> <a href="for-loop/for-loop.html"><button class="button">For-Loop</button></a></li>
+                    <li> <a href="functions/functions.html"><button class="button">Functions</button></a></li>
+                    <li> <a href="operators/operators.html"><button class="button">Operators</button></a></li>
+                    <li> <a href="decoder/decoder.html"><button class="button">Decoder</button></a></li>
+                    </ul>
+                </div>         
+             </div>
+            <footer>© 2025 MAULIN All Rights Reserved</footer>
+        </div>
+        <script src = "../hamburger.js"></script>
+        <script src = "../script.js"></script>
+    </body>
 </html>

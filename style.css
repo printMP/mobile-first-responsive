@@ -3,7 +3,7 @@
     width: 90%;
     margin: 0 auto;
     background-color: black;
-    border: 0.5px solid red;
+    border: 0.5px solid black;
     max-width: 420px;
 }
 
@@ -11,6 +11,7 @@ header{
     width: 100%;
     background-color: blue;
     height: 100px;
+    display: none;
 }
 
 #encoder,#decoder{
@@ -24,8 +25,17 @@ nav{
     position: relative;
 }
 
+#name{
+    position: absolute;
+    top: -25px;
+    left: 171px;
+    color: antiquewhite;
+    font-size: 2.5em;
+
+}
+
 #container{
-    height: 500px;
+    /* height: 500px; */
     background-color: white;
     width: 100%;
     display: flex;
@@ -40,6 +50,17 @@ nav{
 #inner-container{
     background-color: blue;
     height: 100%;
+}
+
+#main{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+}
+
+#main p{
+    padding: 7%;
+    text-align: justify;
 }
 
 footer{
@@ -82,12 +103,12 @@ ul#menu_items > li {
 
 @media only screen and (min-width: 421px){
     body{
-        background-color:antiquewhite;
+        background-color:black;
     }
 }
 
 @media only screen and (min-width: 724px){
     body{
-        background-color:brown;
+        background-color:black;
     }
 }
